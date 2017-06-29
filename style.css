@@ -20,6 +20,17 @@
   height: 100px;
   text-align: center;
 }
+.col4{
+    width: 33%;
+    position: relative;
+  min-height: 1px;
+  float: left;
+}
+.col8{
+    width: 67%;
+    position: relative;
+  min-height: 1px;float: left;
+}
 #block {
   background: #CCC;
   filter: alpha(opacity=60);
@@ -304,7 +315,7 @@ border-radius: 20px 0px 0px 20px;
 }
 .backg{
   background-image:url(Images/storybg.jpg);
-  height: 73em;
+  height: 80em;
 }
 @-webkit-keyframes example {
     0% {background-image: url(Images/a1.jpg);}
